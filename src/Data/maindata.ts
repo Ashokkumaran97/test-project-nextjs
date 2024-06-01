@@ -1,6 +1,7 @@
 const landingscreendata =
     [
         {
+            id: 1,
             title: "Page content for popup show",
             button: "Click Here",
             route: "/blogone"
@@ -8,6 +9,7 @@ const landingscreendata =
         }
         ,
         {
+            id: 2,
             title: "Page content for popup show",
             button: "Click Here",
             route: "/blogtwo"

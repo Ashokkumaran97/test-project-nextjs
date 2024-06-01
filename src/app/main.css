@@ -58,51 +58,116 @@
     transform: scale(0.98);
 }
 
-
-
-/* .mover {
-    background: rgba(101, 235, 250, 0.979);
-    height: 10px;
-    width: 80px;
-    top: 400px;
-    left: 700px;
-    border-radius: 10px;
-    position: relative;
-    animation: mover5 2s ease-in-out infinite;
+.test_project_loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-.mover::before,
-.mover::after {
-    content: '';
+/* Loader Section */
+
+
+.frame {
     position: absolute;
-    height: 10px;
-    border-radius: 10px;
-    left: 20px;
-    animation: mover5 2s ease-in-out infinite;
-}
-
-.mover::before {
-    background: rgb(164, 249, 255);
-    top: 20px;
-    width: 50px;
-}
-
-.mover::after {
-    background: rgb(188, 244, 244);
-    top: -20px;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -200px;
+  }
+  
+  .center {
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    top: 90px;
+    left: 90px;
+  }
+  
+  .dot-1 {
+    position: absolute;
+    z-index: 3;
+    width: 30px;
+    height: 30px;
+    top: 95px;
+    left: 95px;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 25%, rgba(78,240,219,1) 100%);
+    border-radius: 50%;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation: jump-jump-1 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite alternate;
+    animation: jump-jump-1 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite alternate;
+  }
+  
+  .dot-2 {
+    position: absolute;
+    z-index: 2;
     width: 60px;
-}
-
-@keyframes mover5 {
-    0% {
-        transform: translateX(30px) scale(1);
+    height: 60px;
+    top: 80px;
+    left: 80px;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 25%, rgba(78,240,219,1) 100%);
+    border-radius: 50%;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation: jump-jump-2 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite alternate;
+    animation: jump-jump-2 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite alternate;
+  }
+  
+  .dot-3 {
+    position: absolute;
+    z-index: 1;
+    width: 90px;
+    height: 90px;
+    top: 65px;
+    left: 65px;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 25%, rgba(78,240,219,1) 100%);
+    border-radius: 50%;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation: jump-jump-3 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite alternate;
+    animation: jump-jump-3 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite alternate;
+  }
+  
+  @keyframes jump-jump-1 {
+    0%, 70% {
+      box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.2);
+      -webkit-transform: scale(0);
+      transform: scale(0);
     }
-
-    50% {
-        transform: translateX(-30px) scale(1.1);
-    }
-
+  
     100% {
-        transform: translateX(30px) scale(1);
+      box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
+      -webkit-transform: scale(1);
+      transform: scale(1);
     }
-} */
+  }
+  
+  @keyframes jump-jump-2 {
+    0%, 40% {
+      box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.2);
+      -webkit-transform: scale(0);
+      transform: scale(0);
+    }
+  
+    100% {
+      box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes jump-jump-3 {
+    0%, 10% {
+      box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.2);
+      -webkit-transform: scale(0);
+      transform: scale(0);
+    }
+  
+    100% {
+      box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  }
+  
