@@ -2,7 +2,7 @@
 import './blogone.css'
 import React, { useState } from "react";
 import Modal from "./Modal";
-export default function Blogone() {
+export default function Modalpage() {
 
   const [open, setOpen] = useState<boolean>(false);
 

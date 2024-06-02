@@ -36,7 +36,7 @@ export default function Home() {
                         <div className='test_project_title_contents_text'>
                           <h6>{data.title}</h6>
                           <div className='test_project_title_button'>
-                            <Link href={data.route}><button className='test_project_button'>{data.button}</button></Link>
+                            <Link href={data.route}><button className='test_project_button'>{data.button}&nbsp;&rarr;</button></Link>
                           </div>
                         </div>
                       </div>

@@ -8,7 +8,7 @@ import { faGoogle, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import VectorImage1 from '../Img/login.png';
 import VectorImage2 from '../Img/idea.png';
 
-export default function Blogtwo() {
+export default function Loginpage() {
 
   const [isSignUpMode, setIsSignUpMode] = useState<boolean>(false);
 
@@ -69,7 +69,7 @@ export default function Blogtwo() {
                 <FontAwesomeIcon icon={faLock} className='my-auto mx-auto'/>
                 <input className='LoginInput' type="password" placeholder="Password" />
               </div>
-              <button className='btn'>Sign Up</button>
+              <button className='btn'onClick={handleSignInClick}>Sign Up</button>
               <p className="social-text loginp">Or Sign up with social platforms</p>
               <div className="social-media">
 

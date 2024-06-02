@@ -2,17 +2,17 @@ const landingscreendata =
     [
         {
             id: 1,
-            title: "Page content for popup show",
+            title: "Modal Page with Blur Background",
             button: "Click Here",
-            route: "/blogone"
+            route: "/modalpage"
 
         }
         ,
         {
             id: 2,
-            title: "Page content for popup show",
+            title: "Animated Login Page with Sign In and Sign Up",
             button: "Click Here",
-            route: "/blogtwo"
+            route: "/loginpage"
 
         }
     ]
