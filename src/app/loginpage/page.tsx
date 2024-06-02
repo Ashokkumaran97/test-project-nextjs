@@ -1,5 +1,5 @@
 'use client'
-import './blogtwo.css'
+import './loginpage.css'
 import React, { useState } from 'react';
 import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

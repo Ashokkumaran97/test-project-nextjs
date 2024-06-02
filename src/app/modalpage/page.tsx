@@ -1,5 +1,5 @@
 "use client"
-import './blogone.css'
+import './modal.css'
 import React, { useState } from "react";
 import Modal from "./Modal";
 export default function Modalpage() {
