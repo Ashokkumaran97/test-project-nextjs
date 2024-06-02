@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faLock, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faGoogle, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import VectorImage1 from '../Img/vectorImage1.png';
-import VectorImage2 from '../Img/idea.png'
+import VectorImage2 from '../Img/idea.png';
 
 export default function Blogtwo() {
 
